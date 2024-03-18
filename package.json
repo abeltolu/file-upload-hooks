@@ -19,7 +19,8 @@
     "clean": "rimraf lib esm",
     "storybook": "storybook dev -p 6006",
     "storybook:build": "storybook build",
-    "storybook:upload": "gh-pages -d storybook-static --git \"$(which git)\""
+    "storybook:upload": "gh-pages -d storybook-static --git \"$(which git)\"",
+    "release": "semantic-release"
   },
   "engines": {
     "node": ">=14"
