@@ -33,6 +33,9 @@
   "license": "UNLICENSED",
   "devDependencies": {
     "@chromatic-com/storybook": "^1.2.22",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^12.0.0",
     "@storybook/addon-essentials": "^8.0.0",
     "@storybook/addon-interactions": "^8.0.0",
     "@storybook/addon-links": "^8.0.0",
@@ -46,6 +49,7 @@
     "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "semantic-release": "^23.0.4",
     "storybook": "^8.0.0",
     "typescript": "^5.4.2"
   },
@@ -55,5 +59,21 @@
   },
   "dependencies": {
     "tslib": "^2.6.2"
+  },
+  "release": {
+    "branches": [
+      "master",
+      "next"
+    ],
+    "verifyConditions": [
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git"
+    ],
+    "prepare": [
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git"
+    ]
   }
 }
