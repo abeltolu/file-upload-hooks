@@ -5,10 +5,6 @@
   "main": "lib/index.js",
   "module": "esm/index.js",
   "sideEffects": false,
-  "files": [
-    "lib/",
-    "esm/"
-  ],
   "types": "lib/index.d.ts",
   "typings": "lib/index.d.ts",
   "scripts": {
@@ -83,22 +79,6 @@
       "@semantic-release/changelog",
       "@semantic-release/npm",
       "@semantic-release/git"
-    ],
-    "plugins": [
-        "@semantic-release/commit-analyzer",
-        "@semantic-release/release-notes-generator",
-        [
-            "@semantic-release/github",
-            {
-                "assets": [
-                    { "path": "lib/**", "label": "LIB distribution" },
-                    { "path": "esm/**", "label": "ESM distribution" }
-                ]
-            }
-        ],
-        "@semantic-release/changelog",
-        "@semantic-release/npm",
-        "@semantic-release/git"
     ]
   }
 }
