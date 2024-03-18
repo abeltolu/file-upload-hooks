@@ -4,6 +4,7 @@
   "description": "",
   "main": "lib/index.js",
   "module": "esm/index.js",
+  "files": ["lib", "esm"],
   "sideEffects": false,
   "types": "lib/index.d.ts",
   "typings": "lib/index.d.ts",
