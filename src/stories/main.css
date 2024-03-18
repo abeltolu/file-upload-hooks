@@ -1,0 +1,14 @@
+pre {
+    background-color: #fafafa;
+    font-size: 0.8rem;
+    overflow-x: scroll;
+    padding: 1.125em;
+}
+
+pre code {
+    color: #000;
+}
+
+p {
+    margin: 0;
+}
