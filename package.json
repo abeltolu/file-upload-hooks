@@ -32,6 +32,14 @@
   ],
   "author": "Tolulope Adetula - @abeltolu",
   "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abeltolu/file-upload-hooks"
+  },
+  "bugs": {
+    "url": "https://github.com/abeltolu/file-upload-hooks/issues"
+  },
+  "homepage": "https://github.com/abeltolu/file-upload-hooks#readme",
   "devDependencies": {
     "@chromatic-com/storybook": "^1.2.22",
     "@semantic-release/changelog": "^6.0.3",
