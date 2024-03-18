@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/abeltolu/file-upload-hooks/compare/v1.0.1...v1.0.2) (2024-03-18)
+
+
+### Bug Fixes
+
+* remove files from package.json ([f92720c](https://github.com/abeltolu/file-upload-hooks/commit/f92720cbc213c923b7cb3ebdba6dd38b77c4dfc7))
+
 ## [1.0.1](https://github.com/abeltolu/file-upload-hooks/compare/v1.0.0...v1.0.1) (2024-03-18)
 
 
