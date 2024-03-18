@@ -1,10 +1,13 @@
 {
   "name": "file-upload-hooks",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "lib/index.js",
   "module": "esm/index.js",
-  "files": ["lib", "esm"],
+  "files": [
+    "lib",
+    "esm"
+  ],
   "sideEffects": false,
   "types": "lib/index.d.ts",
   "typings": "lib/index.d.ts",

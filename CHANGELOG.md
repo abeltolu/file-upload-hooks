@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/abeltolu/file-upload-hooks/compare/v1.0.2...v1.0.3) (2024-03-18)
+
+
+### Bug Fixes
+
+* revert back test action ([d7dab8a](https://github.com/abeltolu/file-upload-hooks/commit/d7dab8ab758b2b747bf88f6707fb236ea08f105c))
+
 ## [1.0.2](https://github.com/abeltolu/file-upload-hooks/compare/v1.0.1...v1.0.2) (2024-03-18)
 
 
